@@ -77,7 +77,7 @@ Utforska våra produkter nedan och hitta dina nya favoriter.
                     alt={product.fields.name}
                     width={160}
                     height={160}
-                    style={{ objectFit: 'contain',borderRadius: '50%', }}
+                    style={{ objectFit: 'contain',borderRadius: '50%', border: '1px solid #3b3a3aff' }}
                   />
                 </div>
                 <div className="card-body text-center">
