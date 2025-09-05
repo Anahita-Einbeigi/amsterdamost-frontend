@@ -20,13 +20,13 @@ export default function Footer() {
               </li>
               <li className="mb-2 d-flex align-items-center gap-2">
                 <FaLinkedin />
-                <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-dark text-decoration-none">
+                <a href="http://linkedin.com/in/amsterdam-ost-134565382" target="_blank" rel="noopener noreferrer" className="text-dark text-decoration-none">
                   LinkedIn
                 </a>
               </li>
               <li className="mb-2 d-flex align-items-center gap-2">
                 <FaInstagram />
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-dark text-decoration-none">
+                <a href="https://www.instagram.com/amsterdam.farms?igsh=MXRoeWZudmpnNWRoaQ==" target="_blank" rel="noopener noreferrer" className="text-dark text-decoration-none">
                   Instagram
                 </a>
               </li>

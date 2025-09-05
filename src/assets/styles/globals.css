@@ -248,7 +248,7 @@ a{
 .home-collageGrid img {
   width: 100%;
   min-width: 200px;
-  height: 195px;
+  height: 195px !important;
   object-fit: cover;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -288,7 +288,7 @@ a{
 }
 
 .home-featureContent .home-big {
-  font-size: clamp(28px, 5vw, 48px);
+  font-size: clamp(28px, 5vw, 36px);
   font-weight: 500;
   display: block;
   margin-top: 8px;
@@ -379,7 +379,7 @@ a{
   }
 
   .home-hero{
-    background: url(/images/o2.jpg) center / 80% no-repeat;
+    background: url(/images/o2.jpg) center / 105% no-repeat;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -392,10 +392,34 @@ a{
 
   .home-featureImage img {
     width: 100%;
+    max-width: 280px ;
     height: auto;
-    max-height: 400px;
+    max-height: 300px;
     object-fit: cover;
-    margin-top: -50px;
+    margin-top: -40px;
+    border-bottom-right-radius: 100px !important;
+    border-top-left-radius: 100px !important;
+  }
+
+  .home-introText h2{
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    margin-bottom: 30px !important;
+  }
+
+  .scrollingBanner-banner{
+    margin-top: 15px;
+  }
+
+  .home-big{
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .home-primaryBtn2{
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
   }
 }
 
@@ -651,6 +675,17 @@ a{
   .about-previewText {
     text-align: center;
     padding: 10px 30px;
+  }
+
+  .about-hero{
+    height: auto;
+    min-height: 70vh;
+  }
+
+  .about-heroContent{
+    height: auto;
+    min-height: 70vh;
+    padding-top: 120px;
   }
 }
 /* =================================================================================================================================================================================================================================
@@ -1006,10 +1041,20 @@ a{
 }
 
 @media (max-width: 440px) {
+ .products-hero{
+    background-size: 150% auto;
+    height: auto;
+    min-height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+ }
 
   .products-hero .overlay {
   position: absolute;
-  height: 90%;}
+  height: auto !important;}
 
   .products-hero h1 {
     font-size: 2rem;
@@ -1027,6 +1072,10 @@ a{
   .products-hero {
     height: auto;
     margin-top: -23px;
+  }
+
+  .products-section{
+    padding: 40px 0px!important;
   }
 }
 

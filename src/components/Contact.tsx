@@ -73,7 +73,7 @@ export default function Contact() {
                 <div className="mb-4 mt-5 contact-place-card">
                   <h4 className="contact-placeTitle">{place.title}</h4>
                   <p className="contact-placeInfo">{place.address}</p>
-                  <p className="contact-placeInfo">{place.startdate}  till  {place.date}</p>
+                  <p className="contact-placeInfo">{place.startdate}  -  {place.date}</p>
                   <p className="contact-placeInfo">{place.openingHours}</p>
                   <a href={place.link} target="_blank" rel="noopener noreferrer" className="contact-button">
                     {place.link} 

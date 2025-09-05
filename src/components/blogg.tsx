@@ -1,9 +1,9 @@
 "use client";
-import ScrollingBanner from "../components/ScrollingBanner";
-import Image from "next/image";
-import nyheter1 from "../assets/images/06.jpg";
-import nyheter2 from "../assets/images/15.jpg"; 
-import nyheter3 from "../assets/images/08.jpg";
+// import ScrollingBanner from "../components/ScrollingBanner";
+// import Image from "next/image";
+// import nyheter1 from "../assets/images/06.jpg";
+// import nyheter2 from "../assets/images/15.jpg"; 
+// import nyheter3 from "../assets/images/08.jpg";
 
 
 export default function Blogg() {
@@ -24,7 +24,7 @@ export default function Blogg() {
           color: "#dac5a7",
           minHeight: "100vh",
           minWidth: "100vw",
-          padding: "3rem",
+          padding: "1.5rem",
           overflowX: "hidden",
         }}
       >
@@ -88,7 +88,7 @@ export default function Blogg() {
       </div> */}
 
       {/* Services section */}
-      <section className="container mt-5">
+      {/* <section className="container mt-5">
         <div className="row g-4">
           <div className="col-12 col-md-4">
             <div
@@ -171,7 +171,7 @@ export default function Blogg() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
     </div>
   );

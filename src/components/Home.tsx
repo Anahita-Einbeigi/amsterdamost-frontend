@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logo3 from "../assets/images/01.jpg";
 import logo4 from "../assets/images/02.jpg";
-import logo5 from "../assets/images/03.jpg";
+import logo5 from "../assets/images/ost.jpg";
 
 const Home: React.FC = () => {
   return (
