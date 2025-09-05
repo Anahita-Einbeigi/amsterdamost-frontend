@@ -49,7 +49,7 @@ export default function Navbar() {
           <Link href="/" className="navbar-navLink" onClick={() => setOpen(false)}>Hem</Link>
           <Link href="/about" className="navbar-navLink" onClick={() => setOpen(false)}>Om oss</Link>
           <Link href="/products" className="navbar-navLink" onClick={() => setOpen(false)}>Produkter</Link>
-          <Link href="/contact" className="navbar-navLink" onClick={() => setOpen(false)}>Kontakt</Link>
+          <Link href="/contact" className="navbar-navLink" onClick={() => setOpen(false)}>Här finns vi</Link>
           <Link href="/blog" className="navbar-navLink" onClick={() => setOpen(false)}>Nyheter</Link>
         </div>
       </div>
