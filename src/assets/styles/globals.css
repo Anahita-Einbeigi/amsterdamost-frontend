@@ -371,6 +371,10 @@ a{
     object-fit: cover;
     margin-top: -50px;
   }
+
+  .contact-image-wrapper img{
+    display: none !important;
+  }
 }
 
 @media (max-width: 510px) {

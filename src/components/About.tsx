@@ -83,7 +83,7 @@ const About: React.FC = () => {
             Vårt sortiment är noggrant utvalt och vi strävar alltid efter att erbjuda hög kvalitet och en personlig service, oavsett var du träffar oss.
             Vill du veta var vi finns den här veckan?
           </p>
-          <Link href="/contact">
+          <Link href="/locations">
             <button className="about-Btn">Se våra aktuella platser</button>
           </Link>
         </div>

@@ -6,28 +6,28 @@ import ScrollingBanner from "../components/ScrollingBanner";
 import Image from "next/image";
 import contact from "../assets/images/fresh.jpg";
 
-type Place = {
-  id: string;
-  title: string;
-  address: string;
-  date: string;
-  startdate: string;
-  link: string;
-  openingHours: string;
-};
+// type Place = {
+//   id: string;
+//   title: string;
+//   address: string;
+//   date: string;
+//   startdate: string;
+//   link: string;
+//   openingHours: string;
+// };
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState<string | null>(null);
-  const [places, setPlaces] = useState<Place[]>([]);
+  // const [places, setPlaces] = useState<Place[]>([]);
 
-  useEffect(() => {
-    const loadPlaces = async () => {
-      const data = await fetchEntries(); 
-      setPlaces(data);
-    };
-    loadPlaces();
-  }, []);
+  // useEffect(() => {
+  //   const loadPlaces = async () => {
+  //     const data = await fetchEntries(); 
+  //     setPlaces(data);
+  //   };
+  //   loadPlaces();
+  // }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -64,7 +64,7 @@ export default function Contact() {
     <div className="contact-wrapper">
       <div className="container">
         <div className="row align-items-center">
-          <section className="container text-center my-5">
+          {/* <section className="container text-center my-5">
           <h2 className="contact-contactTitle">Var du kan träffa oss</h2>
           {places.length === 0 && <p>Inga platser uppdaterade ännu.</p>}
           <div className="row justify-content-center g-4">
@@ -86,7 +86,7 @@ export default function Contact() {
 
           <div style={{ marginTop: "3rem", marginBottom: "3rem" }} className="col-12 contact-line">
             <ScrollingBanner variant="dark" />
-          </div>
+          </div> */}
 
           <div className="col-12 col-md-6 text-center mb-4 mb-md-0">
             <div className="contact-image-wrapper">
@@ -143,8 +143,9 @@ export default function Contact() {
           </div>
         </div>
 
-        
-
+        <div className="mt-4">
+          <ScrollingBanner variant="dark" />
+        </div> 
         
       </div>
     </div>
