@@ -12,8 +12,14 @@ export default function Blogg() {
     // "https://www.linkedin.com/embed/feed/update/urn:li:share:7337797078430932992?collapsed=1",
     "https://www.linkedin.com/embed/feed/update/urn:li:share:7369324544383303680?collapsed=1",
     "https://www.linkedin.com/embed/feed/update/urn:li:share:7369324666684862465?collapsed=1",
-    "https://www.linkedin.com/embed/feed/update/urn:li:share:7369324768556130305?collapsed=1"
-
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7369324768556130305?collapsed=1",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7374719935391997952?collapsed=1",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7374719843368849408?collapsed=1",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7374719751052267520?collapsed=1",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7374719616532762624?collapsed=1",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7374719521195991040?collapsed=1",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7374719379382640640?collapsed=1",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7374721531517759488?collapsed=1",
   ];
 
   return (
