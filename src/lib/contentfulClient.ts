@@ -1,5 +1,4 @@
 import { createClient } from 'contentful';
-import { link } from 'fs';
 
 export const client = createClient({
   space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID as string,
